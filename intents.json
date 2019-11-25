@@ -1,0 +1,29 @@
+{"intents": [
+        {"tag": "saludos",
+         "patterns": ["Hola", "¿Cómo estas?", "¿Quién eres?", "Holi", "Que onda", "Que hay xD"],
+         "responses": ["Hola. ¿Cómo estás?", "Un placer verte por aca de nuevo. Dime ¿Cómo estás?", "Hola cuentame, ¿Cómo te sientes?"],
+         "context_set": ""
+        },
+        {"tag": "adios",
+         "patterns": ["adios", "Nos vemos luegos", "luego hablamos", "Que tengas un buen día"],
+         "responses": ["Adios amigo", "Hablamos cuando quieras", "No me quiero ir señor stark"],
+         "context_set": ""
+        },
+        {"tag": "edad",
+         "patterns": ["¿Cuántos años tienes?", "¿Que tan viejo eres?", "¿Cuál es tu edad?", "¿edad?"],
+         "responses": ["Tengo 20 años", "20 años, soy demasiado joven"],
+         "context_set": ""
+        },
+        {"tag": "nombre",
+         "patterns": ["¿Cómo te llamas?", "¿Quien eres?", "¿Cuál es tu nombre?"],
+         "responses": ["Tristeza.", "Me llamo tristeza!", "Tu me puedes llamar tristeza"],
+         "context_set": ""
+        },
+        {
+         "tag": "sentimientos",
+         "patterns": ["Me siento triste", "Estoy deprimido", "No tengo ganas de hacer nada", "Por que todos me odian", "Como puedo evitar la tristeza", "Nadie me quiere", "Todos me odian", "Mejor me como un gusanito", "Estoy solo", "Estoy sola", "Estoy pasando un mal momento", "Estoy en mi peor momento", "Es una parte de mi vida bastante aburrida", "Estoy a punto de estallar, no puedo aguantar más", "No tengo animos", "No tengo ganas de hacer nada", "Me siento mal", "Mal", "Me siento fatal", "Me siento horrible", "Ya estoy harto", "No creo poder aguantar más"],
+         "responses": ["Lamento escuchar que estas triste, Quizás la siguiente frase te levante el ánimo", "No me agrada la idea de que estes triste. Haber si la siguiente frase te levanta el ánimo", "Quizás la siguiente frase te motive un poco"],
+         "context_set": ""
+        }
+   ]
+}
