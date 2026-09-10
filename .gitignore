@@ -1,1 +1,6 @@
 settings.py
+
+# Python local environment and cache
+__pycache__/
+*.py[cod]
+.venv/
